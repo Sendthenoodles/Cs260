@@ -1,0 +1,183 @@
+
+#league{
+background-color: #D55C5F;
+font-style: italic;
+padding: 20px, 10px;
+text-align: center;
+border: 2px solid #BLACK;
+width: 20px;
+height: 20px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.holder {
+  margin-top: 30px;
+  overflow: hidden;
+   background-color: #470d11;
+}
+
+.testcolumns{
+float: left;
+ width: 31%;
+ margin: 20px 1%;
+ height: 60px;
+ background-color: #BLACK;
+ text-align: center;
+}
+
+.content {
+margin: 0 auto;
+    width: 200px;
+    height: 300px;
+    background-color: #F09A9D;
+
+}
+/* remain untouch */
+.nagivation {
+position: absolute;
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 0;
+background-color: #0b10b3
+top: 0;
+width: 100%;
+align-items: stretch;
+
+}
+/* remain untouch */
+.bar {
+  float: left;
+  border-right: 2px solid #121111;
+}
+
+.align {
+display: block;
+padding: 8px;
+background-color: #e6e6e6;
+}
+
+li:last-child {
+border-right: none;
+}
+
+h1, h2,  {
+font-style: "Apple Chancery";
+font-display: block;
+font-family: Apple Chancery, sans-serif;
+}
+
+li, p{
+font-style: "Apple Chancery";
+font-display: block;
+font-family: Comic-sans, arial;
+}
+
+p:first-of-type {
+color: #7E8184;
+margin: 50px;
+}
+
+li a {
+display: block;
+width: 60px;
+color: #780bb3;
+padding: 8px 16px;
+text-decoration: underline;
+}
+
+* {
+background-color: #e0dfc5;
+}
+
+li a:hover {
+background-color: #555;
+color: white;
+}
+
+.test{
+background-color: #grey;
+padding: 20px, 10px;
+text-align: center;
+border: 5px solid #RED;
+border: 2px solid #BLACK;
+border-radius: 20px;
+width: 600px;
+margin: 0 auto;
+}
+
+.homepage {
+color: #FFF;
+background-color: #8c8888;
+font-weight: bold;
+padding: 20px;
+text-align: center;
+border: 10px solid #BLACK;
+border-radius: 20px;
+}
+
+.images-container{
+display: flex;
+justify-content: center;
+border: medium solid black;
+flex: 1 1 80vh;
+flex-wrap: wrap;
+}
+
+.images {
+  justify-content: space-between;
+  border: 3px dashed red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.image1 {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+align-items: stretch;
+}
+
+.penguin,
+.racoon,
+.cat {
+  width: 10em;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: medium solid black;
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .image-container,
+  .images,
+  .image1
+  {
+    width: 50%;
+  }
+  .penguin,
+  .racoon,
+  .cat{
+    width: auto;
+  }
+  @media only screen and (min-width: 961px) {
+    .image-container,
+    .images,
+    .image1{
+      width: 25%;
+    }
+
+    .penguin,
+    .racoon,
+    .cat{
+      width: auto;
+    }
+  }
+}
+
